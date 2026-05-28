@@ -1,0 +1,3 @@
+interface:
+  display_name: "CTF WP Writer"
+  short_description: "Write human-like CTF WPs with one-click Python exploit"
