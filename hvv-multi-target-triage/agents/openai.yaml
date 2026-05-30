@@ -1,0 +1,4 @@
+interface:
+  display_name: "HVV 多目标分诊"
+  short_description: "面向几十到几千目标的前置编排 Skill：优先用 nuclei 做技术/面板/暴露识别，再做定向 N-day 锁定与 Top N 分发。"
+  default_prompt: "Use $hvv-multi-target-triage to triage a large target pool before deep exploitation: normalize and deduplicate targets, run nuclei-first fingerprinting with technologies/exposed-panels/selected exposures, map products to precise N-day templates, cluster similar assets, score them, and hand the best targets to hvv-full-auto. Use the fallback probe only when nuclei results are sparse or when robots/login/favicon metadata is specifically needed."

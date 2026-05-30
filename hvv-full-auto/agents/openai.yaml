@@ -1,4 +1,4 @@
 interface:
-  display_name: "HVV 全自动化渗透"
-  short_description: "PTES 全流程自动化渗透测试引擎"
-  default_prompt: "Use $hvv-full-auto for automated penetration testing covering recon, scanning, exploitation, post-exploitation, and reporting."
+  display_name: "HVV 总控渗透"
+  short_description: "完整总控版 HVV Skill：支持多目标分诊前置、单目标深打、SQLi、上传/RCE、提权、后渗透、横向与报告。"
+  default_prompt: "Use $hvv-full-auto as the primary HVV control skill: if the input is a large asset pool, run multi-target triage first; if the input is a shortlisted target, run the full single-target exploitation, privilege-escalation, post-exploitation, lateral-movement, cleanup, and reporting workflow with minimal user interaction."
