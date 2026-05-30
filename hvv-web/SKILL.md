@@ -1,4 +1,8 @@
-# Skill: HVV Web Penetration
+---
+name: hvv-web
+description: 护网 Web 渗透技能，专注于 Web 应用渗透测试，包含信息搜集、漏洞发现、权限获取、横向移动等完整攻击链。
+
+---
 
 # 护网 Web 渗透技能
 
@@ -496,6 +500,7 @@ SSRF:
 ```
 
 ---
+
 ## 参考资源
 
 详细技术参考，请参考 CTF Web Skill 中的模块：
@@ -517,6 +522,7 @@ SSRF:
 - `modules/cve.md` - 组件漏洞利用流程
 
 快速参考：
+
 - `docs/QUICKREF.md` - 速查表
 - `docs/TOOLS.md` - 工具安装指南
 - `docs/PAYLOADS.md` - 常用Payload集合
