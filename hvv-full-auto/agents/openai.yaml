@@ -1,0 +1,4 @@
+interface:
+  display_name: "HVV 全自动化渗透"
+  short_description: "PTES 全流程自动化渗透测试引擎"
+  default_prompt: "Use $hvv-full-auto for automated penetration testing covering recon, scanning, exploitation, post-exploitation, and reporting."
